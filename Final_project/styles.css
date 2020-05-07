@@ -1,0 +1,137 @@
+.bg{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #ccccff, #cce6ff, #99ccff);
+    position: relative;
+    
+}
+
+.container{
+    display: flex;
+    width:1000px;
+   height: 400px;
+   position: absolute;
+    flex-wrap:wrap;
+    margin: 0 auto;
+    position: absolute;
+    top: 80px;
+    left: 250px;    
+  
+}
+
+.center{
+    display: flex;
+    width: 88%;
+    height: 450px;
+    background:  rgb(214, 196, 92);
+    flex-grow: 10;
+    margin: 0 10px;
+    padding:0px;
+    border-radius: 7px;
+    
+
+}
+
+
+
+img{
+    width: 880px;
+    height: 450px;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+
+.gray-container {
+    position: absolute;
+    width: 880px;
+    height: 120px;
+    background: #3a3737;
+    opacity: 0.65;
+    top: 330px;
+    left: 60px;
+    margin: 0;
+    padding: 0;
+    border-radius: 7px;
+}
+
+#photo-title{
+    color: white;
+    font-family: 'Philosopher';
+    margin-left: 20px;
+margin-top: -5px;
+padding-top: 10px;
+
+}
+
+#photo-description{
+ color: whitesmoke;
+ font-family: 'Philosopher';
+ margin-left: 10px;
+ margin-top: -10px;
+}
+
+
+.arrow{
+    width: 5%;
+    height: 450px;
+    border-radius: 7px;
+}
+
+.left{
+    background:  rgb(214, 196, 92);
+   
+
+}
+#leftArrow{
+height: 20px;
+width: 20px;
+position: absolute;
+  top: 200px;
+  left: 15px;
+
+}
+.right{
+    background:  #d3c36b;
+}   
+
+#rightArrow{
+
+    height: 20px;
+    width: 20px;
+    position: absolute;
+      top: 200px;
+      right:15px;
+      transform: rotate(0.5turn);
+    }
+
+.thumbs{
+    display: flex;
+    position: relative;
+height: 150px;
+width: 1000px;
+background: rgb(214, 196, 92);
+margin-top: 10px;
+border-radius: 7px;
+justify-content: space-evenly;
+
+}
+
+#th{
+color: blue;
+font-weight: bold ;
+position: absolute;
+  top: 30px;
+  left: 450px;
+}
+
+#thumbimage{
+    
+   margin-top: 25px;;
+    border: solid #f28500 8px;
+    height: 90px;
+    width: 90px;
+}
+
+
+
