@@ -91,9 +91,8 @@ $('.left').click(() => {
 
 imagesData.forEach((adat, index) => {
     // <img id="thumbimage" src="images/sun.jpg">
-   $('.thumbs').append(`<img id="thumbimage" data-index="${index}" src="${adat.photo}">`);
-   
-
+   $('.thumbs').append(`<img id="thumbimage" data-number="${index}" src="${adat.photo}">`);
+  
 });
 
 
