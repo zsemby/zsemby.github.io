@@ -135,3 +135,12 @@ position: absolute;
 
 
 
+#thumbimage:hover{
+    margin-top: 25px;;
+    border: solid #f28500 8px;
+    height: 120px;
+    width: 1200px;
+    opacity: 0.7;
+
+}
+
